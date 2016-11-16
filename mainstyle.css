@@ -81,12 +81,15 @@ video{
 }
 .nav:hover{
   color:white;
+  text-decoration: none;
 }
 .nav:active{
   color:white;
+  text-decoration: none;
 }
 .nav:visited{
   color:white;
+  text-decoration: none;
 }
 .portfolio{
   width: 100%;
@@ -95,4 +98,48 @@ video{
 /*Div styling*/
 body{
   /*background: url("background.jpeg");*/
+}
+/*Social icons styling*/
+.twitterbtn{
+  background-color: #4099FF;
+}
+.youtubebtn{
+  background-color: #bb0000;
+}
+.githubbtn{
+  background-color: grey;
+}
+.freecodecampbtn{
+  background-color: green;
+}
+/*Landing page text*/
+.name{
+  font-family: Raleway,serif;
+  font-size: 45px;
+}
+.caption{
+  font-family: Raleway,serif;
+  font-size: 30px;
+}
+.landingpage{
+  padding: 8%;
+  background-image: url("background.jpeg");
+  color: white;
+  background-size: 100% 100%;
+  background-attachment: : fixed;
+  background-size : cover;
+}
+.socialbuttons{
+  text-align: center;
+  margin: auto;
+}
+.waves-effect{
+
+}
+.fixed{
+  position: fixed;
+  top: 0;
+}
+.nav-placeholder{
+  margin: 0 0 40px 0;
 }
