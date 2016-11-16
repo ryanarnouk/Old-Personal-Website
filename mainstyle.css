@@ -39,9 +39,7 @@
 .waves-effect{
   font-family: Raleway, serif;
 }
-.twitterbtn{
-  background-color: #55ACEE;
-}
+
 .scrollbtn{
   background-color: grey;
   color: grey;
@@ -95,7 +93,6 @@ video{
   height: 800px;
 }
 /*Div styling*/
-.about{
-  background: url("https://raw.githubusercontent.com/Azbo400/ryan.github.io/master/AboutSectionBk.jpeg");
-  width: 100%;
+body{
+  /*background: url("background.jpeg");*/
 }
