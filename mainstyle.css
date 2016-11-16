@@ -1,0 +1,102 @@
+/*Style for index.html*/
+.me{
+  font-family: Raleway,serif;
+  font-size: 50px;
+  color: white;
+}
+.statement{
+  font-family: Raleway,serif;
+  font-size: 35px;
+  color: white;
+}
+/*Landing text exactly in the middle*/
+.head{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+
+/*Change the color of the navbar*/
+.nav-wrapper{
+  background-color: grey;
+  position: fixed;
+
+  text-decoration: none;
+  width: 100%;
+}
+
+/*About section*/
+.about{
+  height:800px;
+  position: absolute;
+}
+.ryana{
+  font-size: 30px;
+}
+.waves-effect{
+  font-family: Raleway, serif;
+}
+.twitterbtn{
+  background-color: #55ACEE;
+}
+.scrollbtn{
+  background-color: grey;
+  color: grey;
+
+ position:relative;
+ background:   url("scrolldownimg.png")no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+/*video*/
+body,html{
+  margin: 0;
+  padding: 0;
+}
+video{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+  /*Make it black and white*/
+  position: absolute;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+  margin: 0;
+  padding: 0;
+
+  position: fixed;
+}
+.nav{
+  text-decoration: none;
+}
+.main-nav-scroll{
+  position: fixed;
+}
+.nav:hover{
+  color:white;
+}
+.nav:active{
+  color:white;
+}
+.nav:visited{
+  color:white;
+}
+.portfolio{
+  width: 100%;
+  height: 800px;
+}
+/*Div styling*/
+.about{
+  background: url("https://raw.githubusercontent.com/Azbo400/ryan.github.io/master/AboutSectionBk.jpeg");
+  width: 100%;
+
+}
