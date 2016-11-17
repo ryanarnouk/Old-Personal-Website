@@ -21,11 +21,16 @@
 
 /*Change the color of the navbar*/
 .nav-wrapper{
-  background-color: grey;
-  position: fixed;
-
   text-decoration: none;
   width: 100%;
+
+  -webkit-box-shadow: -1px 7px 14px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 7px 14px -2px rgba(0,0,0,0.75);
+  box-shadow: -1px 7px 14px -2px rgba(0,0,0,0.75);
+  background-color: white;
+
+  position: absolute;
+  position: relative;
 }
 
 /*About section*/
@@ -54,25 +59,6 @@ body,html{
   margin: 0;
   padding: 0;
 }
-video{
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-
-  /*Make it black and white*/
-  position: absolute;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-
-  margin: 0;
-  padding: 0;
-
-  position: fixed;
-}
 .nav{
   text-decoration: none;
 }
@@ -80,15 +66,15 @@ video{
   position: fixed;
 }
 .nav:hover{
-  color:white;
+  color:black;
   text-decoration: none;
 }
 .nav:active{
-  color:white;
+  color:black;
   text-decoration: none;
 }
 .nav:visited{
-  color:white;
+  color:black;
   text-decoration: none;
 }
 .portfolio{
@@ -96,9 +82,6 @@ video{
   height: 800px;
 }
 /*Div styling*/
-body{
-  /*background: url("background.jpeg");*/
-}
 /*Social icons styling*/
 .twitterbtn{
   background-color: #4099FF;
@@ -133,13 +116,16 @@ body{
   text-align: center;
   margin: auto;
 }
-.waves-effect{
-
-}
 .fixed{
   position: fixed;
   top: 0;
 }
-.nav-placeholder{
-  margin: 0 0 40px 0;
+.profile{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+.aboutme{
+  font-family: Raleway,serif;
+  font-size: 20px;
 }
