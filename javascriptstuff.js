@@ -35,7 +35,11 @@ $(document).ready(function(){
       }else if(scrollPos < 300){
         $('.me').hide();
         $('.aboutme').hide();
+      }else{
+        $('.me').hide();
+        $('.aboutme').hide();
       }
+      $(".portfoliobk").addClass("animated slideInLeft");
   })
 })
 function twitter(){
