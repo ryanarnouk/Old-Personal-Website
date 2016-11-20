@@ -95,6 +95,18 @@ body,html{
 .freecodecampbtn{
   background-color: green;
 }
+.twitterbtn:hover{
+  outline:none !important;
+}
+.youtubebtn:hover{
+  outline:none !important;
+}
+.githubbtn:hover{
+  outline:none !important;
+}
+.freecodecampbtn:hover{
+  outline:none !important;
+}
 /*Landing page text*/
 .name{
   font-family: Raleway,serif;
@@ -124,18 +136,26 @@ body,html{
   border-radius: 100%;
   width: 300px;
   height: 300px;
+  position: relative;
 }
 .aboutme{
   font-family: Raleway,serif;
   font-size: 20px;
 }
 .about{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+
 }
 .portfoliobk{
-  
+
+}
+.justified {
+  position: absolute;
+  left: 50%;
+}
+.signature{
+  width: 150px;
+  height: 150px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
 }
