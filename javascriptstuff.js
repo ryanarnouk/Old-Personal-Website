@@ -43,6 +43,8 @@ $(document).ready(function(){
   })
   var width = $('.justified').width();
   $('.justified').css('margin-left', '-' + (width / 2) + 'px');
+
+
 })
 function twitter(){
   window.open("https://twitter.com/opticodesoft");
