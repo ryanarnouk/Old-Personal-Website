@@ -162,3 +162,6 @@ body,html{
 .container-fluid{
   padding: 0;
 }
+.navbar-material .nav-wrapper .brand-logo .ryansignature {
+    height: 64px;
+}
