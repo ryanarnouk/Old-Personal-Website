@@ -28,8 +28,8 @@ $(document).ready(function(){
         $("nav").removeClass("fixed");
       }
       if(scrollPos >= 300){
-        $(".me").addClass("animated rotateIn");
-        $(".aboutme").addClass("animated fadeInUp");
+        $(".me").addClass(/*"animated rotateIn"*/);
+        $(".aboutme").addClass(/*"animated fadeInUp"*/);
         $('.me').show();
         $('.aboutme').show();
       }else if(scrollPos < 300){
