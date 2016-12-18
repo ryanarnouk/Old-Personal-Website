@@ -170,6 +170,7 @@ body,html{
 .footertext{
   color:#FCE4EC;
   font-size: 20px;
+  /*add margin so it is centered*/
 }
 /*Make all the centered text with the font Raleway*/
 .text-center{
