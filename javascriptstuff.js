@@ -40,6 +40,9 @@ $(document).ready(function(){
         $('.aboutme').hide();
       }
       $(".portfoliobk").addClass("animated slideInLeft");
+
+      //Navbar
+      $(".button-collapse").sideNav();
   })
   var width = $('.justified').width();
   $('.justified').css('margin-left', '-' + (width / 2) + 'px');
