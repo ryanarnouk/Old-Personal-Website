@@ -1,3 +1,5 @@
-This is my website using github pages CURRENTLY UNDER DEVELOPMENT
+This is my personal website using github pages.
 
-azbo400.github.io
+This project is currently under development 
+
+https://azbo400.github.io
