@@ -9,24 +9,13 @@
     <!--Import the libraries-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-    <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <!--Import the css stylesheet-->
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
-
-    <!--Get the javascript file-->
-    <script src="javascriptstuff.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
@@ -49,29 +38,25 @@
           <button type="button" name="button" class="waves-effect waves-light waves-green btn freecodecampbtn green darken-3"><i class="fa fa-free-code-camp"></i></button>
         </div>
       </div>
-
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Ryan A</a>
-            <li class="active pull-right"><a href="#about">About</a></li>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class=""><a href="#portfolio">Portfolio <span class="sr-only">(current)</span></a></li>
-              <li class=""><a href="#about">About <span class="sr-only">(current)</span></a></li>
-            </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+      <!--Navbar-->
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#about" style="color:black; font-family:Raleway" class="brand-logo">Ryan A</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse mobilenav"><i class="fa fa-bars bars fa-2x"></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="navtext" href="#about">About</a></li>
+            <li><a class="navtext" href="#portfolio">Portfolio</a></li>
+            <li><a class="navtext" href="#skills">Skills</a></li>
+            <li><a class="navtext" href="#contact">Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a class="navtext" href="#about">About</a></li>
+            <li><a class="navtext" href="#portfolio">Portfolio</a></li>
+            <li><a class="navtext" href="#skills">Skills</a></li>
+            <li><a class="navtext" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
       <div id="about" class="about">
         <div class="me">
@@ -81,6 +66,7 @@
           <p class="aboutme">
             Hello World, my name is Ryan and I enjoy computer programming. I have been programming for 2 years...
             <br>More random stuff is to go in this second line and so on
+            <br>Write about myself
           </p>
         </div>
       </div>
@@ -95,6 +81,19 @@
       </div>
       <footer class="footer">
         <p class="text-center footertext">Coded with <i class="fa fa-heart"></i> by Ryan A 2016</p>
+
+        <!--Load scripts-->
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+        <!--Get the javascript file-->
+        <script src="javascriptstuff.js"></script>
       </footer>
     </div>
   </body>
