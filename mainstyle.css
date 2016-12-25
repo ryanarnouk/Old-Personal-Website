@@ -180,7 +180,8 @@ body,html{
 
 
 /*Mobile screens*/
-@media (max-width:900px) {
+/*and (-webkit-device-pixel-ratio:3) This is for devices that have a 1080 resolution*/
+@media (max-width:900px) and (max-width:1920px) {
   /*Make the header and caption smaller*/
   .name{
     font-family: Raleway,serif;
