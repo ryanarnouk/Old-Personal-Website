@@ -28,19 +28,30 @@ $(document).ready(function(){
         $("nav").removeClass("fixed");
       }
       if(scrollPos >= 300){
-        $(".me").addClass(/*"animated rotateIn"*/);
-        $(".aboutme").addClass(/*"animated fadeInUp"*/);
+        $(".me").addClass("animated rotateIn");
+        $(".aboutme").addClass("animated fadeInUp");
+        $(".goals").addClass("animated slideInLeft");
+        $(".quote").addClass("animated slideInUp");
         $('.me').show();
         $('.aboutme').show();
+        $('.aboutheader').show();
+        $('.goals').show();
+        $('.quote').show();
       }else if(scrollPos < 300){
         $('.me').hide();
         $('.aboutme').hide();
+        $('.aboutme').hide();
+        $('.aboutheader').hide();
+        $('.goals').hide();
+        $('.quote').hide();
       }else{
         $('.me').hide();
         $('.aboutme').hide();
+        $('.aboutheader').hide();
+        $('.goals').hide();
+        $('.quote').hide();
       }
       $(".portfoliobk").addClass("animated slideInLeft");
-
   })
   var width = $('.justified').width();
   $('.justified').css('margin-left', '-' + (width / 2) + 'px');
