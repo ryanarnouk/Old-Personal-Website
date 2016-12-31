@@ -20,41 +20,17 @@ $(document).ready(function(){
   $(".nav-placeholder").height($("nav").outerHeight);
 
   $(window).scroll(function(){
-      var scrollPos = $(window).scrollTop();
+    var scrollPos = $(window).scrollTop();
 
-      if(scrollPos >= navOffSet){
-        $("nav").addClass("fixed");
-      }else{
-        $("nav").removeClass("fixed");
-      }
-      if(scrollPos >= 300){
-        $(".me").addClass("animated rotateIn");
-        $(".aboutme").addClass("animated fadeInUp");
-        $(".goals").addClass("animated slideInLeft");
-        $(".quote").addClass("animated slideInUp");
-        $('.me').show();
-        $('.aboutme').show();
-        $('.aboutheader').show();
-        $('.goals').show();
-        $('.quote').show();
-      }else if(scrollPos < 300){
-        $('.me').hide();
-        $('.aboutme').hide();
-        $('.aboutme').hide();
-        $('.aboutheader').hide();
-        $('.goals').hide();
-        $('.quote').hide();
-      }else{
-        $('.me').hide();
-        $('.aboutme').hide();
-        $('.aboutheader').hide();
-        $('.goals').hide();
-        $('.quote').hide();
-      }
-      $(".portfoliobk").addClass("animated slideInLeft");
+    if(scrollPos >= navOffSet){
+      $("nav").addClass("fixed");
+    }else{
+      $("nav").removeClass("fixed");
+    }
   })
   var width = $('.justified').width();
   $('.justified').css('margin-left', '-' + (width / 2) + 'px');
+
   $('.button-collapse').sideNav({
     menuWidth: 240,
     edge: 'left', // Choose the horizontal origin

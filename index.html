@@ -26,21 +26,9 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="landingpage">
-        <div class="name">
-          <h1 class="text-center name">Ryan A</h1>
-          <h3 class="text-center caption">Hello there! I am a 13 year old boy passionate about programming</h3>
-        </div>
-        <div class="socialbuttons">
-          <button type="button" name="button" class="waves-effect waves-light waves-blue btn twitterbtn cyan darken-1"><i class="fa fa-twitter"></i></button>
-          <button type="button" name="button" class="waves-effect waves-light waves-red btn youtubebtn red darken-3"><i class="fa fa-youtube-play"></i></button>
-          <button type="button" name="button" class="waves-effect waves-light waves-grey btn githubbtn grey lighten-1"><i class="fa fa-github"></i></button>
-          <button type="button" name="button" class="waves-effect waves-light waves-green btn freecodecampbtn green darken-3"><i class="fa fa-free-code-camp"></i></button>
-        </div>
-      </div>
       <!--Navbar-->
       <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper" id="navbar">
           <a href="#about" style="color:black; font-family:Raleway" class="brand-logo">Ryan A</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse mobilenav"><i class="fa fa-bars bars fa-2x"></i></a>
           <ul class="right hide-on-med-and-down">
@@ -57,6 +45,18 @@
           </ul>
         </div>
       </nav>
+      <div class="landingpage">
+        <div class="name">
+          <h1 class="text-center name">Ryan A</h1>
+          <h3 class="text-center caption">Hello there! I am a 13 year old boy passionate about programming</h3>
+        </div>
+        <div class="socialbuttons">
+          <button type="button" name="button" class="waves-effect waves-light waves-blue btn twitterbtn cyan darken-1"><i class="fa fa-twitter"></i></button>
+          <button type="button" name="button" class="waves-effect waves-light waves-red btn youtubebtn red darken-3"><i class="fa fa-youtube-play"></i></button>
+          <button type="button" name="button" class="waves-effect waves-light waves-grey btn githubbtn grey lighten-1"><i class="fa fa-github"></i></button>
+          <button type="button" name="button" class="waves-effect waves-light waves-green btn freecodecampbtn green darken-3"><i class="fa fa-free-code-camp"></i></button>
+        </div>
+      </div>
 
       <div class="drag-target" data-sidenav="mobile-demo" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
 
@@ -91,7 +91,7 @@
         </div>
       </div>
       <div class="portfolio">
-        <img src="portfoliobk.jpeg" alt="" class="portfoliobk img-responsive"/>
+
       </div>
       <div class="skills">
 
@@ -101,7 +101,14 @@
       </div>
       <footer class="footer">
         <p class="text-center footertext">Coded with <i class="fa fa-heart"></i> by Ryan A 2016</p>
-
+        <!--
+        <div class="footersocialbtns">
+          <i class="footersocialbtn fa fa-twitter btn"></i>
+          <i class="footersocialbtn fa fa-youtube-play btn"></i>
+          <i class="footersocialbtn fa fa-github btn"></i>
+          <i class="footersocialbtn fa fa-free-code-camp btn"></i>
+        </div>
+      -->
         <!--Load scripts-->
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
