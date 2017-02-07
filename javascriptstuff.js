@@ -39,7 +39,7 @@ $(document).ready(function(){
   });
 })
 function twitter(){
-  window.open("https://twitter.com/opticodesoft");
+  window.open("https://twitter.com/azbo400");
 }
 function youtube(){
   window.open("https://www.youtube.com/channel/UCEgc6SMmlV-H6_qCPwh_m_Q");
