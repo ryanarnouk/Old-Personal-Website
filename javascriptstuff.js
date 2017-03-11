@@ -50,3 +50,15 @@ function github(){
 function freecodecamp(){
   window.open("https://freecodecamp.com/azbo400");
 }
+
+//Typed JS stuff
+$(function(){
+    $(".caption").typed({
+      strings: ["Hello there! I am a 13 year old boy passionate about Web Development", 
+      "Hello there! I am a 13 year old boy passionate about JavaScript",
+      "Hello there! I am a 13 year old boy passionate about FreeCodeCamp",
+      "Hello there! I am a 13 year old boy passionate about Open Source",
+      "Hello there! I am a 13 year old boy passionate about programming"],
+      typeSpeed: 1
+    });
+});
