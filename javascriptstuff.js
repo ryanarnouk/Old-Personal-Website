@@ -1,18 +1,23 @@
 //File hooked with index.html
 $(document).ready(function(){
+  $(".button-collapse").sideNav();
   //Onclick stuff
   $('.twitterbtn').click(function(){
     twitter();
-  })
+  });
   $('.youtubebtn').click(function(){
     youtube();
-  })
+  });
   $('.githubbtn').click(function(){
     github();
-  })
+  });
   $('.freecodecampbtn').click(function(){
     freecodecamp();
-  })
+  });;
+  $('.portfoliocard').click(function(){
+    //Use data attributes for getting the link to open for specific card
+    window.open('https://google.com');
+  });
   //Sticky navigation
   var navOffSet = $("nav").offset().top;;
 
