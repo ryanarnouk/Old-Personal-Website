@@ -44,14 +44,6 @@
  background-size: cover;
  background-position: center;
 }
-/*video*/
-body,html{
-  margin: 0;
-  padding: 0;
-}
-.main-nav-scroll{
-  position: fixed;
-}
 /*Div styling*/
 /*Social icons styling*/
 .twitterbtn{
@@ -99,6 +91,19 @@ body,html{
   border-radius: 100%;
   width: 300px;
   height: 300px;
+  /*Animation + vendor prefixs*/
+  -webkit-animation: profilerotate 2s forwards; /* Safari 4+ */
+  -moz-animation: profilerotate 2s forwards; /* Fx 5+ */
+  -o-animation: profilerotate 2s forwards; /* Opera 12+ */
+  animation: profilerotate 2s forwards; /* IE 10+, Fx 29+ */
+}
+@keyframes profilerotate{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
 }
 .aboutme{
   font-family: Raleway,serif;
@@ -209,6 +214,25 @@ body,html{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+/*Portfolio Section*/
+.portfoliocard{
+  width:200px;
+  height: 200px;
+  background-color: white;
+}
+/*Portfolio hover is WIP*/
+.portfoliocard:hover{
+  background: linear-gradient(
+                     rgba(20,20,20, .8), 
+                     rgba(20,20,20, .8));
+}
+
+.portfoliocard:hover > .projectdescription{
+  transform: translate(0,0);
+}
+.projectdescription{
+  transform: translate(0,40px);
 }
 /*Mobile screens*/
 /*and (-webkit-device-pixel-ratio:3) This is for devices that have a 1080 resolution*/
