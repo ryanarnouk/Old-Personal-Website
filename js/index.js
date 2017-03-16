@@ -63,7 +63,7 @@ $(function(){
       "Hello there! I am a 13 year old boy passionate about JavaScript",
       "Hello there! I am a 13 year old boy passionate about FreeCodeCamp",
       "Hello there! I am a 13 year old boy passionate about Open Source",
-      "Hello there! I am a 13 year old boy passionate about programming"],
+      "Hello there! I am a 13 year old boy passionate about programming."],
       typeSpeed: 1
     });
 });
