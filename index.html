@@ -46,7 +46,7 @@
       <div class="drag-target" data-sidenav="mobile-demo" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
 
       <div id="about" class="about">
-        <h3 class="aboutheader">About Me</h3>
+        <h3 class="aboutheader header">About Me</h3>
         <div class="me">
           <img class="profile img-responsive" src="img/profilepicturenew.png" alt="" />
         </div>
@@ -82,10 +82,15 @@
         </div>
       </div>
       <div class="skills">
-
+          <h3 class="skillsheader header">Skills</h3> 
       </div>
       <div class="contact">
-
+        <form class="emailform" method="POST" action="http://formspree.io/azbo400@gmail.com" aria-required="true" required>
+          <input name="nameofperson" placeholder="Your Name" aria-required="true" required>
+          <input type="email" name="email" placeholder="Your email; eg.email@email.com" aria-required="true" required>
+          <textarea name="message" placeholder="Your message" class="materialize-textarea" aria-required="true" required></textarea>
+          <button type="submit" class="sendbtn waves-effect waves-light btn">Send</button>
+        </form>
       </div>
       <footer class="footer">
         <p class="text-center footertext">Coded with <i class="fa fa-heart"></i> by Ryan A 2016</p>
